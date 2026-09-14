@@ -41,3 +41,27 @@
 .listing-title__action--saved {
   color: var(--color-text-primary);
 }
+
+@media (max-width: 768px) {
+  .listing-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: 16px 0 12px;
+  }
+
+  .listing-title__text {
+    font-size: var(--font-size-lg);
+    line-height: 1.3;
+  }
+
+  .listing-title__actions {
+    width: 100%;
+    justify-content: flex-start;
+    gap: var(--space-4);
+  }
+
+  .listing-title__action {
+    padding: 6px 0;
+  }
+}

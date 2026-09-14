@@ -102,3 +102,11 @@
   --z-modal: 300;
   --z-lightbox: 400;
 }
+
+@media (max-width: 580px) {
+  :root {
+    --content-padding: 16px;
+    --header-height: 70px;
+    --sticky-nav-height: 56px;
+  }
+}

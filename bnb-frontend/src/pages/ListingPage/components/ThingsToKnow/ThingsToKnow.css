@@ -5,3 +5,10 @@
 .things-to-know__list { font-size: var(--font-size-sm); line-height: 2; color: var(--color-text-primary); margin-bottom: var(--space-3); }
 .things-to-know__link { display: inline-flex; align-items: center; gap: 4px; font-size: var(--font-size-sm); font-weight: var(--font-weight-semibold); text-decoration: underline; }
 .things-to-know__link:hover { color: var(--color-link-hover); }
+
+@media (max-width: 768px) {
+  .things-to-know__columns {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+}

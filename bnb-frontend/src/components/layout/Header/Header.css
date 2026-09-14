@@ -142,10 +142,72 @@
   background: #EBEBEB;
 }
 
+@media (max-width: 950px) {
+  .header__host-link {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
+  .header {
+    height: 72px;
+  }
+
   .header__search {
     position: static;
     transform: none;
     flex: 1;
+    justify-content: center;
+    margin: 0 var(--space-2);
+  }
+
+  .header__search-btn {
+    padding: 6px 6px 6px 12px;
+  }
+
+  .header__search-text {
+    padding: 0 8px;
+    font-size: var(--font-size-xs);
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    height: 64px;
+  }
+
+  .header__logo svg {
+    height: 26px;
+    width: auto;
+  }
+
+  .header__search-text:not(:first-of-type),
+  .header__search-divider {
+    display: none;
+  }
+
+  .header__search-house-icon {
+    width: 20px;
+    height: 17px;
+    margin-right: 4px;
+  }
+
+  .header__search-btn {
+    padding: 6px 6px 6px 10px;
+  }
+
+  .header__search-icon {
+    width: 28px;
+    height: 28px;
+    margin-left: 6px;
+  }
+
+  .header__right .header__circle-btn:first-of-type {
+    display: none;
+  }
+
+  .header__circle-btn {
+    width: 36px;
+    height: 36px;
   }
 }

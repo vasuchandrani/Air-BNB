@@ -80,3 +80,27 @@
 .photo-gallery__show-all:hover {
   background: var(--color-bg-secondary);
 }
+
+@media (max-width: 768px) {
+  .photo-gallery__side {
+    display: none;
+  }
+
+  .photo-gallery__grid {
+    grid-template-columns: 1fr;
+    height: 280px;
+  }
+
+  .photo-gallery__show-all {
+    bottom: 12px;
+    right: 12px;
+    padding: 6px 12px;
+    font-size: var(--font-size-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-gallery__grid {
+    height: 230px;
+  }
+}

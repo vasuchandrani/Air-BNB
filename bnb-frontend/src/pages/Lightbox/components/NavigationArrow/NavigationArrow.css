@@ -2,3 +2,16 @@
 .nav-arrow:hover { background: white; transform: translateY(-50%) scale(1.05); }
 .nav-arrow--prev { left: var(--space-5); }
 .nav-arrow--next { right: var(--space-5); }
+
+@media (max-width: 768px) {
+  .nav-arrow {
+    width: 36px;
+    height: 36px;
+  }
+  .nav-arrow--prev {
+    left: 8px;
+  }
+  .nav-arrow--next {
+    right: 8px;
+  }
+}

@@ -163,3 +163,19 @@
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .booking-card {
+    padding: 16px;
+  }
+
+  .booking-promo-card {
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .booking-promo-card__claim {
+    padding: 5px 10px;
+    font-size: var(--font-size-xs);
+  }
+}

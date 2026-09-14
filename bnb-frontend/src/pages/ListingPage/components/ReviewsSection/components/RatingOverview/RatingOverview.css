@@ -78,3 +78,18 @@
 .rating-overview__how-link:hover {
   color: #000000;
 }
+
+@media (max-width: 480px) {
+  .rating-overview__score {
+    font-size: 60px;
+    letter-spacing: -1px;
+  }
+
+  .rating-overview__laurel {
+    height: 58px;
+  }
+
+  .rating-overview__label {
+    font-size: 18px;
+  }
+}

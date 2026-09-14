@@ -21,3 +21,10 @@
 .amenities__show-all:hover {
   background: var(--color-bg-secondary);
 }
+
+@media (max-width: 600px) {
+  .amenities__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+}

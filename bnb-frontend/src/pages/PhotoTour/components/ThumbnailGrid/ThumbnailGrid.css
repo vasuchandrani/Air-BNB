@@ -37,3 +37,21 @@
   color: var(--color-text-primary);
   line-height: 1.3;
 }
+
+@media (max-width: 600px) {
+  .thumbnail-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--space-3);
+  }
+
+  .thumbnail-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .thumbnail-grid__item {
+    flex-shrink: 0;
+  }
+}

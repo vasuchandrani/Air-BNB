@@ -20,3 +20,23 @@
 .datepicker__footer { display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-4); }
 .datepicker__keyboard { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border: 1px solid var(--color-border); border-radius: var(--radius-md); cursor: pointer; color: var(--color-text-secondary); }
 .datepicker__clear { font-size: var(--font-size-sm); font-weight: var(--font-weight-semibold); text-decoration: underline; }
+
+@media (max-width: 680px) {
+  .datepicker__calendars {
+    gap: 0;
+    justify-content: center;
+  }
+
+  .datepicker__month:last-of-type {
+    display: none;
+  }
+
+  .datepicker__month {
+    max-width: 320px;
+  }
+
+  .datepicker__cell {
+    height: 36px;
+    font-size: var(--font-size-xs);
+  }
+}

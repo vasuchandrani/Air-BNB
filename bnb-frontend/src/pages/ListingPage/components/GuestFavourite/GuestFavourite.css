@@ -93,3 +93,18 @@
   text-decoration: underline;
   margin-top: 4px;
 }
+
+@media (max-width: 580px) {
+  .guest-favourite__badge {
+    padding: 14px 16px;
+    gap: var(--space-2);
+  }
+
+  .guest-favourite__description {
+    display: none;
+  }
+
+  .guest-favourite__stats {
+    gap: 12px;
+  }
+}
