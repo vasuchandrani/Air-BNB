@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "name": "Devraj & Tanya",
+  "avatar": "/images/host.jpg",
+  "yearsHosting": 6,
+  "totalReviews": 142,
+  "rating": 4.98,
+  "isVerified": true,
+  "isSuperhost": true,
+  "personalInfo": {
+    "bornIn": "Born in the 80s",
+    "school": "Where I went to school: Goa University"
+  },
+  "hostDetails": {
+    "responseRate": "100%",
+    "responseTime": "Responds within an hour"
+  },
+  "coHosts": [
+    { "id": 1, "name": "Rahul Verma", "avatar": "/images/villa_living.jpg" },
+    { "id": 2, "name": "Pooja Mehta", "avatar": "/images/villa_bedroom.jpg" },
+    { "id": 3, "name": "Karan Malhotra", "avatar": "/images/villa_pool.jpg" },
+    { "id": 4, "name": "Tanya Sharma", "avatar": "/images/villa_kitchen.jpg" },
+    { "id": 5, "name": "Rohan Mehra", "avatar": "/images/villa_patio.jpg" },
+    { "id": 6, "name": "Sneha Kapoor", "avatar": "/images/villa_bathroom.jpg" },
+    { "id": 7, "name": "Shreya", "avatar": null, "initial": "S" },
+    { "id": 8, "name": "Ananya", "avatar": null, "initial": "A" }
+  ]
+}

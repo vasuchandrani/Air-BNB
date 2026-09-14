@@ -1,0 +1,117 @@
+{
+  "totalCount": 50,
+  "displayed": [
+    { "id": 1, "name": "Kitchen", "icon": "kitchen", "available": true },
+    { "id": 2, "name": "Wifi", "icon": "wifi", "available": true },
+    { "id": 3, "name": "Dedicated workspace", "icon": "workspace", "available": true },
+    { "id": 4, "name": "Free parking on premises", "icon": "parking", "available": true },
+    { "id": 5, "name": "Private pool", "icon": "pool", "available": true },
+    { "id": 6, "name": "Hot tub", "icon": "hottub", "available": true },
+    { "id": 7, "name": "Pets allowed", "icon": "pets", "available": true },
+    { "id": 8, "name": "Exterior security cameras on property", "icon": "camera", "available": true },
+    { "id": 9, "name": "Carbon monoxide alarm", "icon": "alarm", "available": false },
+    { "id": 10, "name": "Smoke alarm", "icon": "smoke", "available": false }
+  ],
+  "categories": [
+    {
+      "name": "Bathroom",
+      "items": [
+        { "id": 101, "name": "Hairdryer", "icon": "hairdryer", "available": true },
+        { "id": 102, "name": "Cleaning products", "icon": "cleaning", "available": true },
+        { "id": 103, "name": "Shampoo", "icon": "shampoo", "available": true },
+        { "id": 104, "name": "Hot water", "icon": "hotwater", "available": true },
+        { "id": 105, "name": "Shower gel", "icon": "showergel", "available": true },
+        { "id": 106, "name": "Conditioner", "icon": "conditioner", "available": true },
+        { "id": 107, "name": "Body soap", "icon": "soap", "available": true }
+      ]
+    },
+    {
+      "name": "Bedroom and laundry",
+      "items": [
+        { "id": 201, "name": "Washing machine", "icon": "washer", "available": true },
+        { "id": 202, "name": "Essentials", "details": "Towels, bed sheets, soap and toilet paper", "icon": "essentials", "available": true },
+        { "id": 203, "name": "Hangers", "icon": "hangers", "available": true },
+        { "id": 204, "name": "Bed linen", "icon": "linen", "available": true },
+        { "id": 205, "name": "Extra pillows and blankets", "icon": "pillows", "available": true },
+        { "id": 206, "name": "Iron", "icon": "iron", "available": true }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "items": [
+        { "id": 301, "name": "65\" 4K Smart TV", "icon": "smarttv", "available": true },
+        { "id": 302, "name": "Sound system", "icon": "sound", "available": true },
+        { "id": 303, "name": "Books and reading material", "icon": "books", "available": true }
+      ]
+    },
+    {
+      "name": "Heating and cooling",
+      "items": [
+        { "id": 401, "name": "Air conditioning", "icon": "ac", "available": true },
+        { "id": 402, "name": "Ceiling fan", "icon": "fan", "available": true }
+      ]
+    },
+    {
+      "name": "Home safety",
+      "items": [
+        { "id": 501, "name": "Exterior security cameras on property", "icon": "camera", "available": true },
+        { "id": 502, "name": "Smoke alarm", "details": "Smoke alarm not reported", "icon": "smoke", "available": false },
+        { "id": 503, "name": "Carbon monoxide alarm", "details": "Carbon monoxide alarm not reported", "icon": "alarm", "available": false },
+        { "id": 504, "name": "First aid kit", "icon": "firstaid", "available": true },
+        { "id": 505, "name": "Fire extinguisher", "icon": "fireext", "available": true },
+        { "id": 506, "name": "Lock on bedroom door", "icon": "lock", "available": true }
+      ]
+    },
+    {
+      "name": "Internet and office",
+      "items": [
+        { "id": 601, "name": "Fast wifi – 150 Mbps", "icon": "wifi", "available": true },
+        { "id": 602, "name": "Dedicated workspace", "details": "A desk with an ergonomic chair", "icon": "workspace", "available": true }
+      ]
+    },
+    {
+      "name": "Kitchen and dining",
+      "items": [
+        { "id": 701, "name": "Kitchen", "details": "Space where guests can cook their own meals", "icon": "kitchen", "available": true },
+        { "id": 702, "name": "Refrigerator", "icon": "fridge", "available": true },
+        { "id": 703, "name": "Microwave", "icon": "microwave", "available": true },
+        { "id": 704, "name": "Cooking basics", "details": "Pots and pans, oil, salt and pepper", "icon": "cooking", "available": true },
+        { "id": 705, "name": "Dishes and silverware", "details": "Bowls, chopsticks, plates, cups, etc.", "icon": "dishes", "available": true },
+        { "id": 706, "name": "Stove", "icon": "stove", "available": true },
+        { "id": 707, "name": "Oven", "icon": "oven", "available": true },
+        { "id": 708, "name": "Coffee maker", "icon": "coffee", "available": true },
+        { "id": 709, "name": "Wine glasses", "icon": "wine", "available": true },
+        { "id": 710, "name": "Toaster", "icon": "toaster", "available": true }
+      ]
+    },
+    {
+      "name": "Outdoor",
+      "items": [
+        { "id": 801, "name": "Private pool", "details": "Available all year, open 24 hours", "icon": "pool", "available": true },
+        { "id": 802, "name": "Hot tub", "icon": "hottub", "available": true },
+        { "id": 803, "name": "Patio or balcony", "icon": "balcony", "available": true },
+        { "id": 804, "name": "Garden view", "icon": "garden", "available": true },
+        { "id": 805, "name": "BBQ grill", "icon": "bbq", "available": true },
+        { "id": 806, "name": "Outdoor dining area", "icon": "outdoor", "available": true },
+        { "id": 807, "name": "Sun loungers", "icon": "loungers", "available": true },
+        { "id": 808, "name": "Outdoor furniture", "icon": "furniture", "available": true }
+      ]
+    },
+    {
+      "name": "Parking and facilities",
+      "items": [
+        { "id": 901, "name": "Free parking on premises", "icon": "parking", "available": true },
+        { "id": 902, "name": "Private entrance", "details": "Separate street or building entrance", "icon": "entrance", "available": true },
+        { "id": 903, "name": "Gym", "icon": "gym", "available": true }
+      ]
+    },
+    {
+      "name": "Services",
+      "items": [
+        { "id": 1001, "name": "Luggage drop-off allowed", "details": "For guests' convenience when they have early arrival or late departure", "icon": "luggage", "available": true },
+        { "id": 1002, "name": "Long-term stays allowed", "details": "Allow stay for 28 days or more", "icon": "longterm", "available": true },
+        { "id": 1003, "name": "Self check-in", "details": "Smart lock keypad", "icon": "selfcheckin", "available": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.review-card { }
+.review-card__header { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-3); }
+.review-card__name { font-size: var(--font-size-base); font-weight: var(--font-weight-semibold); }
+.review-card__duration { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-top: 2px; }
+.review-card__meta { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3); }
+.review-card__dot { color: var(--color-text-secondary); }
+.review-card__date { font-size: var(--font-size-sm); color: var(--color-text-secondary); }
+.review-card__text { font-size: var(--font-size-base); line-height: var(--line-height-relaxed); }
+.review-card__show-more { margin-top: var(--space-3); font-size: var(--font-size-base); font-weight: var(--font-weight-semibold); text-decoration: underline; cursor: pointer; }
+.review-card__show-more:hover { color: var(--color-link-hover); }

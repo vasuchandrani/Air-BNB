@@ -1,0 +1,11 @@
+.location-map { padding: var(--space-7) 0; }
+.location-map__title { font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); margin-bottom: var(--space-2); }
+.location-map__address { font-size: var(--font-size-sm); color: var(--color-text-primary); margin-bottom: var(--space-5); }
+.location-map__container { position: relative; border-radius: var(--radius-lg); overflow: hidden; background: var(--color-bg-secondary); height: 400px; }
+.location-map__image { width: 100%; height: 100%; object-fit: cover; }
+.location-map__search { position: absolute; top: 12px; left: 12px; width: 36px; height: 36px; background: var(--color-bg-primary); border-radius: var(--radius-circle); display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); cursor: pointer; }
+.location-map__zoom { position: absolute; top: 12px; right: 12px; display: flex; flex-direction: column; gap: 2px; }
+.location-map__zoom-btn { width: 36px; height: 36px; background: var(--color-bg-primary); display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-md); }
+.location-map__zoom-btn:first-child { border-radius: var(--radius-md) var(--radius-md) 0 0; }
+.location-map__zoom-btn:last-child { border-radius: 0 0 var(--radius-md) var(--radius-md); }
+.location-map__note { font-size: var(--font-size-sm); color: var(--color-text-primary); margin-top: var(--space-4); }

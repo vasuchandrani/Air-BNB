@@ -1,0 +1,9 @@
+.review-filters { display: flex; flex-wrap: wrap; gap: var(--space-2); padding: var(--space-5) 0; }
+.review-filters__pill {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  padding: 8px 16px; border: 1px solid var(--color-border); border-radius: var(--radius-pill);
+  font-size: var(--font-size-sm); cursor: pointer; transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+.review-filters__pill:hover { background: var(--color-bg-secondary); border-color: var(--color-text-primary); }
+.review-filters__emoji { font-size: 16px; }
+.review-filters__count { color: var(--color-text-secondary); }

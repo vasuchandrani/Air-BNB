@@ -1,0 +1,102 @@
+{
+  "overallRating": 4.98,
+  "totalReviews": 142,
+  "categories": {
+    "cleanliness": 5.0,
+    "accuracy": 5.0,
+    "checkIn": 5.0,
+    "communication": 5.0,
+    "location": 4.9,
+    "value": 4.9
+  },
+  "ratingDistribution": {
+    "5": 139,
+    "4": 3,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "filterTags": [
+    { "emoji": "🏊", "label": "Pool", "count": 28 },
+    { "emoji": "🛋️", "label": "Comfort", "count": 24 },
+    { "emoji": "🎯", "label": "Accuracy", "count": 18 },
+    { "emoji": "🧑‍🤝‍🧑", "label": "Hospitality", "count": 22 },
+    { "emoji": "🧹", "label": "Cleanliness", "count": 19 },
+    { "emoji": "🌴", "label": "Location", "count": 16 },
+    { "emoji": "🏪", "label": "Amenities", "count": 12 }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "author": {
+        "name": "Arjun",
+        "avatar": null,
+        "initial": "A",
+        "avatarColor": "#C13515",
+        "duration": "3 years on Airbnb"
+      },
+      "rating": 5,
+      "date": "1 week ago",
+      "text": "Villa Serenita exceeded all our expectations! The private infinity pool is pristine, and the living area is breathtaking. Devraj and Tanya are exceptional hosts who made sure everything was seamless."
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "Rhea",
+        "avatar": "/images/villa_living.jpg",
+        "duration": "4 years on Airbnb"
+      },
+      "rating": 5,
+      "date": "2 weeks ago",
+      "text": "We had an unforgettable holiday here with family. The villa is spotless, spacious, and even more stunning in person than in the photos. The bedrooms have gorgeous garden views and the poolside deck is magic at sunset.",
+      "showMore": true
+    },
+    {
+      "id": 3,
+      "author": {
+        "name": "Kabir",
+        "avatar": "/images/villa_pool.jpg",
+        "duration": "1 year on Airbnb"
+      },
+      "rating": 5,
+      "date": "May 2026",
+      "text": "The host team was super helpful and responsive within minutes. Super peaceful location in Anjuna yet close to great cafes."
+    },
+    {
+      "id": 4,
+      "author": {
+        "name": "Ananya",
+        "avatar": null,
+        "initial": "A",
+        "avatarColor": "#6B3FA0",
+        "duration": "5 years on Airbnb"
+      },
+      "rating": 5,
+      "date": "May 2026",
+      "text": "One of the best luxury villas we have ever stayed at in Goa. Exceptional aesthetics, ultra-fast WiFi for remote work, and absolute privacy. Highly recommend!",
+      "showMore": true
+    },
+    {
+      "id": 5,
+      "author": {
+        "name": "Vikram S",
+        "avatar": "/images/villa_bedroom.jpg",
+        "duration": "2 years on Airbnb"
+      },
+      "rating": 5,
+      "date": "April 2026",
+      "text": "Everything was 10/10. Spotless clean, beautifully maintained pool, and great hospitality from the co-hosts."
+    },
+    {
+      "id": 6,
+      "author": {
+        "name": "Nisha",
+        "avatar": "/images/villa_patio.jpg",
+        "duration": "6 years on Airbnb"
+      },
+      "rating": 5,
+      "date": "April 2026",
+      "text": "Stunning architecture and immaculate decor. We will definitely be coming back."
+    }
+  ]
+}

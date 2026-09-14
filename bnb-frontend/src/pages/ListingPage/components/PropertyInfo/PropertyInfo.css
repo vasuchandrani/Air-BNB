@@ -1,0 +1,18 @@
+.property-info {
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-4);
+}
+
+.property-info__type {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+  line-height: 1.25;
+}
+
+.property-info__details {
+  font-size: 15px;
+  color: var(--color-text-primary);
+  line-height: 1.4;
+}

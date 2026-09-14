@@ -1,0 +1,5 @@
+.neighbourhood { padding: var(--space-7) 0; }
+.neighbourhood__title { font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); margin-bottom: var(--space-3); }
+.neighbourhood__text { font-size: var(--font-size-base); line-height: var(--line-height-relaxed); margin-bottom: var(--space-4); }
+.neighbourhood__show-more { display: inline-flex; align-items: center; gap: 4px; font-size: var(--font-size-base); font-weight: var(--font-weight-semibold); text-decoration: underline; }
+.neighbourhood__show-more:hover { color: var(--color-link-hover); }

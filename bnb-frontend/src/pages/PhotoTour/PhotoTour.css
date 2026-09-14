@@ -1,0 +1,113 @@
+@keyframes photoTourOpen {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.photo-tour {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-primary);
+  overflow-y: auto;
+  overflow-x: hidden;
+  animation: photoTourOpen 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo-tour {
+    animation: none;
+  }
+}
+
+.photo-tour__header {
+  position: sticky;
+  top: 0;
+  background: var(--color-bg-primary);
+  z-index: 10;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.photo-tour__header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: var(--space-4) var(--content-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-tour__back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-circle);
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--color-text-primary);
+  transition: background var(--transition-fast);
+}
+
+.photo-tour__back-btn:hover {
+  background: var(--color-bg-secondary);
+}
+
+.photo-tour__title {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.photo-tour__actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.photo-tour__action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-circle);
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--color-text-primary);
+  transition: background var(--transition-fast);
+}
+
+.photo-tour__action-btn:hover {
+  background: var(--color-bg-secondary);
+}
+
+.photo-tour__content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: var(--space-4) var(--content-padding);
+}
+
+@media (min-width: 1120px) {
+  .photo-tour__header-inner,
+  .photo-tour__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.photo-tour__sections {
+  padding-bottom: var(--space-9);
+}

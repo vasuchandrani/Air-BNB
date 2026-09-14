@@ -1,0 +1,98 @@
+{
+  "totalCount": 18,
+  "heroPhotos": [
+    "/images/villa_pool.jpg",
+    "/images/villa_living.jpg",
+    "/images/villa_bedroom.jpg",
+    "/images/villa_kitchen.jpg",
+    "/images/villa_patio.jpg"
+  ],
+  "categories": [
+    {
+      "id": 1000,
+      "name": "Private Pool & Deck",
+      "thumbnail": "/images/villa_pool.jpg",
+      "amenities": ["Private infinity pool", "Sun loungers", "Pool towels", "Outdoor shower"],
+      "photos": [
+        { "id": 1000, "src": "/images/villa_pool.jpg", "alt": "Private infinity pool and sun deck", "category": "Private Pool & Deck" },
+        { "id": 1001, "src": "/images/villa_patio.jpg", "alt": "Poolside lounge and garden", "category": "Private Pool & Deck" },
+        { "id": 1002, "src": "/images/villa_pool.jpg", "alt": "Sun deck with tropical palm trees", "category": "Private Pool & Deck" }
+      ]
+    },
+    {
+      "id": 2000,
+      "name": "Living Room",
+      "thumbnail": "/images/villa_living.jpg",
+      "amenities": ["Plush sectional sofa", "Air conditioning", "65\" Smart TV", "Garden view"],
+      "photos": [
+        { "id": 2000, "src": "/images/villa_living.jpg", "alt": "Spacious sunlit living room", "category": "Living Room" },
+        { "id": 2001, "src": "/images/villa_living.jpg", "alt": "Living area with floor-to-ceiling glass doors", "category": "Living Room" },
+        { "id": 2002, "src": "/images/villa_patio.jpg", "alt": "Seamless indoor-outdoor lounge transition", "category": "Living Room" }
+      ]
+    },
+    {
+      "id": 3000,
+      "name": "Master Bedroom Suite",
+      "thumbnail": "/images/villa_bedroom.jpg",
+      "amenities": ["King bed", "Air conditioning", "Ensuite bathroom", "Garden view"],
+      "photos": [
+        { "id": 3000, "src": "/images/villa_bedroom.jpg", "alt": "Master bedroom with plush king bed", "category": "Master Bedroom Suite" },
+        { "id": 3001, "src": "/images/villa_bedroom.jpg", "alt": "Bedroom view overlooking private garden", "category": "Master Bedroom Suite" },
+        { "id": 3002, "src": "/images/villa_bedroom.jpg", "alt": "Designer headboard and warm ambient lighting", "category": "Master Bedroom Suite" }
+      ]
+    },
+    {
+      "id": 4000,
+      "name": "Gourmet Kitchen & Dining",
+      "thumbnail": "/images/villa_kitchen.jpg",
+      "amenities": ["Refrigerator", "Microwave", "Induction stove", "Coffee maker", "Island bar"],
+      "photos": [
+        { "id": 4000, "src": "/images/villa_kitchen.jpg", "alt": "Modern open-concept kitchen and island bar", "category": "Gourmet Kitchen & Dining" },
+        { "id": 4001, "src": "/images/villa_kitchen.jpg", "alt": "Designer kitchen with built-in appliances", "category": "Gourmet Kitchen & Dining" },
+        { "id": 4002, "src": "/images/villa_kitchen.jpg", "alt": "Dining area with elegant pendant lights", "category": "Gourmet Kitchen & Dining" }
+      ]
+    },
+    {
+      "id": 5000,
+      "name": "Luxury Spa Bathroom",
+      "thumbnail": "/images/villa_bathroom.jpg",
+      "amenities": ["Freestanding soaking tub", "Glass rain shower", "Hot water", "Premium essentials"],
+      "photos": [
+        { "id": 5000, "src": "/images/villa_bathroom.jpg", "alt": "Spa ensuite bathroom with soaking tub", "category": "Luxury Spa Bathroom" },
+        { "id": 5001, "src": "/images/villa_bathroom.jpg", "alt": "Modern vanity and rain shower enclosure", "category": "Luxury Spa Bathroom" },
+        { "id": 5002, "src": "/images/villa_bathroom.jpg", "alt": "Natural stone finishes and ambient lighting", "category": "Luxury Spa Bathroom" }
+      ]
+    },
+    {
+      "id": 6000,
+      "name": "Outdoor Patio & Garden",
+      "thumbnail": "/images/villa_patio.jpg",
+      "amenities": ["Covered patio", "Alfresco dining", "BBQ grill", "Tropical garden"],
+      "photos": [
+        { "id": 6000, "src": "/images/villa_patio.jpg", "alt": "Covered outdoor patio with wicker seating", "category": "Outdoor Patio & Garden" },
+        { "id": 6001, "src": "/images/villa_pool.jpg", "alt": "Villa exterior and landscaped tropical garden", "category": "Outdoor Patio & Garden" },
+        { "id": 6002, "src": "/images/villa_patio.jpg", "alt": "Alfresco dining deck at twilight", "category": "Outdoor Patio & Garden" }
+      ]
+    }
+  ],
+  "allPhotos": [
+    { "id": 1000, "src": "/images/villa_pool.jpg", "alt": "Private infinity pool and sun deck", "category": "Private Pool & Deck" },
+    { "id": 1001, "src": "/images/villa_patio.jpg", "alt": "Poolside lounge and garden", "category": "Private Pool & Deck" },
+    { "id": 1002, "src": "/images/villa_pool.jpg", "alt": "Sun deck with tropical palm trees", "category": "Private Pool & Deck" },
+    { "id": 2000, "src": "/images/villa_living.jpg", "alt": "Spacious sunlit living room", "category": "Living Room" },
+    { "id": 2001, "src": "/images/villa_living.jpg", "alt": "Living area with floor-to-ceiling glass doors", "category": "Living Room" },
+    { "id": 2002, "src": "/images/villa_patio.jpg", "alt": "Seamless indoor-outdoor lounge transition", "category": "Living Room" },
+    { "id": 3000, "src": "/images/villa_bedroom.jpg", "alt": "Master bedroom with plush king bed", "category": "Master Bedroom Suite" },
+    { "id": 3001, "src": "/images/villa_bedroom.jpg", "alt": "Bedroom view overlooking private garden", "category": "Master Bedroom Suite" },
+    { "id": 3002, "src": "/images/villa_bedroom.jpg", "alt": "Designer headboard and warm ambient lighting", "category": "Master Bedroom Suite" },
+    { "id": 4000, "src": "/images/villa_kitchen.jpg", "alt": "Modern open-concept kitchen and island bar", "category": "Gourmet Kitchen & Dining" },
+    { "id": 4001, "src": "/images/villa_kitchen.jpg", "alt": "Designer kitchen with built-in appliances", "category": "Gourmet Kitchen & Dining" },
+    { "id": 4002, "src": "/images/villa_kitchen.jpg", "alt": "Dining area with elegant pendant lights", "category": "Gourmet Kitchen & Dining" },
+    { "id": 5000, "src": "/images/villa_bathroom.jpg", "alt": "Spa ensuite bathroom with soaking tub", "category": "Luxury Spa Bathroom" },
+    { "id": 5001, "src": "/images/villa_bathroom.jpg", "alt": "Modern vanity and rain shower enclosure", "category": "Luxury Spa Bathroom" },
+    { "id": 5002, "src": "/images/villa_bathroom.jpg", "alt": "Natural stone finishes and ambient lighting", "category": "Luxury Spa Bathroom" },
+    { "id": 6000, "src": "/images/villa_patio.jpg", "alt": "Covered outdoor patio with wicker seating", "category": "Outdoor Patio & Garden" },
+    { "id": 6001, "src": "/images/villa_pool.jpg", "alt": "Villa exterior and landscaped tropical garden", "category": "Outdoor Patio & Garden" },
+    { "id": 6002, "src": "/images/villa_patio.jpg", "alt": "Alfresco dining deck at twilight", "category": "Outdoor Patio & Garden" }
+  ]
+}

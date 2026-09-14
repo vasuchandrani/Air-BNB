@@ -1,0 +1,2 @@
+.translation-notice { padding: var(--space-4) var(--space-5); background: var(--color-bg-secondary); border-radius: var(--radius-md); margin: var(--space-4) 0; font-size: var(--font-size-sm); color: var(--color-text-primary); }
+.translation-notice__link { font-weight: var(--font-weight-semibold); text-decoration: underline; }

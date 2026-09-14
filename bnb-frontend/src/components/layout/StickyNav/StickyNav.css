@@ -1,0 +1,122 @@
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-sticky);
+  background: var(--color-bg-primary);
+  border-bottom: 1px solid var(--color-border-light);
+  box-shadow: var(--shadow-sticky);
+  transform: translateY(-100%);
+  transition: transform var(--transition-smooth);
+  height: var(--sticky-nav-height);
+}
+
+.sticky-nav--visible {
+  transform: translateY(0);
+}
+
+.sticky-nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sticky-nav__tabs {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  height: 100%;
+}
+
+.sticky-nav__tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  padding-bottom: 2px;
+}
+
+.sticky-nav__tab:hover {
+  color: var(--color-text-primary);
+}
+
+.sticky-nav__tab--active {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.sticky-nav__tab--active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--color-text-primary);
+  border-radius: 2px 2px 0 0;
+}
+
+.sticky-nav__booking {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.sticky-nav__price-info {
+  text-align: right;
+}
+
+.sticky-nav__price {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+}
+
+.sticky-nav__price-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+}
+
+.sticky-nav__rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-1);
+  font-size: var(--font-size-xs);
+}
+
+.sticky-nav__dot {
+  color: var(--color-text-secondary);
+}
+
+.sticky-nav__reviews {
+  text-decoration: underline;
+  color: var(--color-text-secondary);
+}
+
+.sticky-nav__reserve-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: var(--color-primary-gradient);
+  color: white;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform var(--transition-fast);
+  white-space: nowrap;
+}
+
+.sticky-nav__reserve-btn:hover {
+  transform: scale(1.02);
+}

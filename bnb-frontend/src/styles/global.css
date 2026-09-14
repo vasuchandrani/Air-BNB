@@ -1,0 +1,168 @@
+/* ============================================================
+   GLOBAL STYLES — Airbnb Clone
+   ============================================================ */
+
+/* ── Container ───────────────────────────────────── */
+.container {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--content-padding);
+}
+
+@media (min-width: 1120px) {
+  .container {
+    padding: 0;
+  }
+}
+
+/* ── Section spacing ─────────────────────────────── */
+.section {
+  padding: var(--space-7) 0;
+}
+
+.section-border {
+  border-top: 1px solid var(--color-border-light);
+}
+
+/* ── Typography Utilities ────────────────────────── */
+.text-primary {
+  color: var(--color-text-primary);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-sm {
+  font-size: var(--font-size-sm);
+}
+
+.text-xs {
+  font-size: var(--font-size-xs);
+}
+
+.font-medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.font-semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.font-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+/* ── Link Styles ─────────────────────────────────── */
+.link-underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-underline:hover {
+  color: var(--color-link-hover);
+}
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ── Badge / Pill ────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.badge-outline {
+  border: 1px solid var(--color-border);
+}
+
+/* ── Button Defaults ─────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 14px 24px;
+  background: var(--color-primary-gradient);
+  color: #FFFFFF;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+}
+
+.btn-primary:hover {
+  opacity: 0.95;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  border: 1px solid var(--color-text-primary);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.btn-secondary:hover {
+  background: var(--color-bg-secondary);
+}
+
+/* ── Screen-reader only (a11y) ───────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ── Two Column Layout ───────────────────────────── */
+.two-column-layout {
+  display: flex;
+  gap: var(--space-7);
+  position: relative;
+}
+
+.two-column-layout__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.two-column-layout__sidebar {
+  width: var(--booking-card-width);
+  flex-shrink: 0;
+}
+
+@media (max-width: 950px) {
+  .two-column-layout {
+    flex-direction: column;
+  }
+  .two-column-layout__sidebar {
+    width: 100%;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": 1,
+  "title": "Villa Serenita — Luxury 3BHK Private Pool Villa | Anjuna",
+  "type": "Entire villa",
+  "location": {
+    "city": "Anjuna",
+    "state": "Goa",
+    "country": "India",
+    "address": "Anjuna, Goa, India"
+  },
+  "guests": 6,
+  "bedrooms": 3,
+  "beds": 3,
+  "bathrooms": 3.5,
+  "rating": 4.98,
+  "reviewCount": 142,
+  "isSuperhost": true,
+  "isGuestFavourite": true,
+  "guestFavouriteText": "One of the most loved homes on Airbnb, according to guests",
+  "price": {
+    "amount": 34500,
+    "currency": "₹",
+    "nights": 5,
+    "perNight": 6900
+  },
+  "highlights": [
+    {
+      "icon": "outdoor",
+      "title": "Private infinity pool & deck",
+      "description": "Lush tropical landscaping, private sun deck, and alfresco dining."
+    },
+    {
+      "icon": "cool",
+      "title": "Designed for tropical luxury",
+      "description": "Central A/C, designer ceiling fans, and indoor-outdoor living."
+    },
+    {
+      "icon": "checkin",
+      "title": "Self check-in",
+      "description": "Check in seamlessly with the smart keypad lock."
+    }
+  ],
+  "description": "🌿 Welcome to Villa Serenita — An architectural paradise tucked in the serene bylanes of Anjuna, North Goa! ✨\n\nDesigned for refined tropical living, this luxurious 3BHK private pool villa blends contemporary minimalism with warm bohemian aesthetics. Step through floor-to-ceiling glass sliding doors onto a private sun-drenched pool deck framed by towering palm trees.\n\nEnjoy ultra-fast fiber WiFi 💻, 65\" 4K Smart TV 📺, private chef on request 👨‍🍳, ensuite rain showers 🚿, and a gourmet open-plan kitchen. Whether hosting intimate family gatherings or escaping for a peaceful luxury retreat, Villa Serenita is your ultimate sanctuary. 🏡\n\n📍 Just 5 minutes to Anjuna Beach, curated cafés, and vibrant coastal dining!\n\nBook your unforgettable Goan getaway today! 🌊🌴",
+  "translationNotice": "Some info has been automatically translated.",
+  "checkIn": "2026-10-18",
+  "checkOut": "2026-10-23",
+  "cancellationDate": "17 October",
+  "cancellationPolicy": "Free cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.",
+  "houseRules": {
+    "checkInTime": "2:00 pm",
+    "checkOutTime": "11:00 am",
+    "maxGuests": 6
+  },
+  "safety": {
+    "carbonMonoxideAlarm": "Carbon monoxide alarm installed",
+    "smokeAlarm": "Smoke alarm installed",
+    "securityCameras": "Exterior security cameras covering entrance gate"
+  },
+  "neighbourhood": "Tucked into a tranquil enclave in Anjuna, Villa Serenita offers peaceful seclusion while being minutes away from iconic beaches, trendy artisan cafés, and world-renowned sunset spots.",
+  "sleepingArrangements": [
+    {
+      "name": "Master Bedroom",
+      "details": "1 king bed · Ensuite bath",
+      "image": "villa_bedroom.jpg"
+    },
+    {
+      "name": "Bedroom 2",
+      "details": "1 queen bed · Balcony",
+      "image": "villa_bedroom.jpg"
+    },
+    {
+      "name": "Bedroom 3",
+      "details": "1 queen bed · Garden view",
+      "image": "villa_bedroom.jpg"
+    }
+  ],
+  "promo": {
+    "text": "Get 10% off your next stay.",
+    "linkText": "Terms apply"
+  }
+}

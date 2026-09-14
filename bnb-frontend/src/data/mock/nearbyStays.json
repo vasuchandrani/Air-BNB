@@ -1,0 +1,76 @@
+{
+  "stays": [
+    {
+      "id": 1,
+      "title": "Beautiful Studio with a view to die for",
+      "image": "/images/nearby/nearby1.jpg",
+      "price": { "amount": 23600, "currency": "₹" },
+      "rating": 4.91
+    },
+    {
+      "id": 2,
+      "title": "NAQAB - 1bhk with private pool",
+      "image": "/images/nearby/nearby2.jpg",
+      "price": { "amount": 42218, "currency": "₹" },
+      "rating": 4.95
+    },
+    {
+      "id": 3,
+      "title": "Greentique Luxury Flat with plunge pool, Calangute",
+      "image": "/images/nearby/nearby3.jpg",
+      "price": { "amount": 44506, "currency": "₹" },
+      "rating": 4.94
+    },
+    {
+      "id": 4,
+      "title": "The Tropical Studio | 5 mins to Beach",
+      "image": "/images/nearby/nearby4.jpg",
+      "price": { "amount": 22824, "currency": "₹" },
+      "rating": 4.96
+    },
+    {
+      "id": 5,
+      "title": "Luxury Casa Bella 1BHK with plunge pool, Calangute",
+      "image": "/images/nearby/nearby5.jpg",
+      "price": { "amount": 39942, "currency": "₹" },
+      "rating": 4.95
+    },
+    {
+      "id": 6,
+      "title": "Cozy Garden Villa with Private Jacuzzi",
+      "image": "/images/villa_pool.jpg",
+      "price": { "amount": 31200, "currency": "₹" },
+      "rating": 4.93
+    },
+    {
+      "id": 7,
+      "title": "Ocean Breeze Luxury Suite near Anjuna Beach",
+      "image": "/images/villa_living.jpg",
+      "price": { "amount": 26450, "currency": "₹" },
+      "rating": 4.97
+    },
+    {
+      "id": 8,
+      "title": "Sunset Palms Luxury Suite & Balcony",
+      "image": "/images/villa_bedroom.jpg",
+      "price": { "amount": 35800, "currency": "₹" },
+      "rating": 4.92
+    },
+    {
+      "id": 9,
+      "title": "Tropical Serenity Penthouse with Pool",
+      "image": "/images/villa_patio.jpg",
+      "price": { "amount": 41500, "currency": "₹" },
+      "rating": 4.98
+    },
+    {
+      "id": 10,
+      "title": "Anjuna Coastal Haven with Private Deck",
+      "image": "/images/villa_kitchen.jpg",
+      "price": { "amount": 29900, "currency": "₹" },
+      "rating": 4.95
+    }
+  ],
+  "totalPages": 2,
+  "currentPage": 1
+}
